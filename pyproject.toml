@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ro-sciraw"
+version = "0.1.0"
+description = ""
+authors = ["Kirk Lin <linkirk@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.37.1"
+prettytable = "^3.10.2"
+wandb = "^0.17.5"
+tenacity = "^8.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
